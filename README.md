@@ -8,8 +8,7 @@
     * [What fact_geoip affects](#what-fact_geoip-affects)
     * [Setup requirements](#setup-requirements)
     * [Beginning with fact_geoip](#beginning-with-fact_geoip)
-4. [Usage - Configuration options and additional functionality](#usage)
-5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
+4. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 5. [Limitations - OS compatibility, etc.](#limitations)
 6. [Development - Guide for contributing to the module](#development)
 
@@ -22,13 +21,12 @@ This can be very useful if you are using puppet with roaming devices(laptops, fa
 
 ## Module Description
 
-If applicable, this section should have a brief description of the technology
-the module integrates with and what that integration enables. This section
-should answer the questions: "What does this module *do*?" and "Why would I use
-it?"
+Ever want to know where a puppet agent "Actually" is?  Maybe you are managing a fleet of laptops for a sales force, and
+want to track location of it's internet connection?  Or how about applying the timezone for a server based on it's
+internet egress point, without any hardcoding?
 
-If your module has a range of functionality (installation, configuration,
-management, etc.) this is the time to mention it.
+This module utilizes 2 cloud based services, [ipify](http://www.ipify.org), and [freegeoip](https://freegeoip.net), to get
+the internet egress point IP address(edge router), and it's geolocation information.
 
 ## Setup
 
@@ -46,10 +44,6 @@ puppet module install vormetriclabs/fact_geoip
 
 ```
 
-## Usage
-
-Put the classes, types, and resources for customizing, configuring, and doing
-the fancy stuff with your module here.
 
 ## Reference
 
