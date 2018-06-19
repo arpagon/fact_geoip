@@ -1,12 +1,12 @@
 {
-  "name": "vormetriclabs-fact_geoip",
-  "version": "0.1.1",
-  "author": "vormetriclabs",
+  "name": "sapian-fact_geoip",
+  "version": "0.1.4",
+  "author": "vormetriclabs, arpagon <sebastian.rojo@sapian.com.co>",
   "summary": "Custom Facts that return the geograpical and ip address of the puppet agents internet egress point",
   "license": "Apache-2.0",
-  "source": "https://github.com/vormetriclabs/fact_geoip",
-  "project_page": "https://github.com/vormetriclabs/fact_geoip",
-  "issues_url": "https://github.com/vormetriclabs/fact_geoip/issues",
+  "source": "https://github.com/arpagon/fact_geoip",
+  "project_page": "https://github.com/arpagon/fact_geoip",
+  "issues_url": "https://github.com/arpagon/fact_geoip/issues",
   "operatingsystem_support": [{
     "operatingsystem": "RedHat",
     "operatingsystemrelease": ["5.0", "6.0"]
@@ -22,4 +22,3 @@
     "version_requirement": ">=3.2.0 <5.0.0"
   }]
 }
-
